@@ -1,14 +1,55 @@
 
-# :exclamation: READ FIRST :exclamation:
-Before committing anything, set up gitignore and git LFS correctly for your project and your programming environment. When gitignore and git LFS are configured, remove this section from the readme.
+# 🕹️ Bazaar Bounty – GameLab Project
 
-# :grey_exclamation: FIRST STEPS
-Please update the [game teaser image](game_teaser.jpg) and this README throughout the semester. Please don't rename, move or delete these files.
+This repository contains a 2D top-down roguelike dungeon crawler developed using **MonoGame** as part of the GameLab course at ETH Zurich. 
 
-![teaser image](game_teaser.jpg){width=400px}
-# Bazaar Bounty
-# :video_game: Game Programming Lab 2024 - House Hyrule - Team5
+---
 
-Play as a hero mercenary, loot vegetables and fruits to help the small town survive the great famine. Hack, slash, and shoot through levels of bandits, enemy mercenaries, and towns to collect food. Open a grocery store to sell to villagers, or consume secret powers within fruits and vegetables to power up! Wield weapons in both hands to engage in close-quarter and ranged combats. Dive into this rogue-like grocery-punk fantasy full of surprise!
+## 🎮 Core Features
 
-Members: Shenghao Zhang, Yingzhe Liu, Minsung Kang, Yu-Wei Shih, and Oemer Alkaya
+- **2D Sprite Animation System**  
+  Smooth animations for both player and enemy entities, supporting multiple states (idle, moving, attacking, dying).
+
+- **Pathfinding for Enemy AI**  
+  Enemies dynamically navigate dungeon rooms using an efficient pathfinding algorithm to chase and surround the player.
+
+- **Tiled Map Editor Integration**  
+  Custom-built pipeline to import and parse `.tmx` maps from the [Tiled](https://www.mapeditor.org/) editor, enabling rapid level design iteration.
+
+- **Semi-Randomized Visuals**  
+  Tilesets and environmental props are randomized between playthroughs, offering visual variation while preserving core layout logic.
+
+- **Enemy Variety & Scaling Difficulty**  
+  Multiple enemy types with unique stats and behaviors. A global difficulty curve progressively increases enemy spawn strength as players advance.
+
+- **Power-Up System**  
+  Players earn melee or ranged power-ups after each level, boosting damage, attack speed, or special abilities to match the scaling challenge.
+
+- **Melee & Ranged Combat Mechanics**  
+  Implemented collision-based combat with hitbox logic for melee weapons and projectile logic (including travel, collisions, and lifespan) for ranged attacks.
+
+- **Deflection System**  
+  Certain attacks or abilities can deflect incoming projectiles, adding depth to positioning and tactical combat.
+
+---
+
+## 🧩 Technologies & Tools
+- **Language:** C#
+- **Framework:** MonoGame
+- **Level Design:** Tiled Map Editor (`.tmx`)
+- **Animation:** Frame-based spritesheet animation
+- **AI:** Grid-based pathfinding for enemy movement
+
+---
+
+## 👥 Credits
+- **Alkaya Ömer** 
+- **Willy Shih** 
+- **Yingzhe Liu**
+- **Minsung Kang**
+- **Shenghao Zhang**
+
+---
+
+Thanks for checking out our game! Feel free to clone, build, and explore!
+
