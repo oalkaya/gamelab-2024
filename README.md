@@ -33,12 +33,10 @@ This repository contains a 2D top-down roguelike dungeon crawler developed using
 
 ---
 
-## 🧩 Technologies & Tools
+## 🧩 Tools
 - **Language:** C#
 - **Framework:** MonoGame
 - **Level Design:** Tiled Map Editor (`.tmx`)
-- **Animation:** Frame-based spritesheet animation
-- **AI:** Grid-based pathfinding for enemy movement
 
 ---
 
